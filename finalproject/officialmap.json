@@ -1,0 +1,205 @@
+{
+  "continents": [
+    {
+      "continent id": "A",
+      "description": "North America",
+      "bonus": 2,
+      "regions": [
+        {
+          "id": "A1",
+          "description": "Northwest US",
+          "neighbors": [
+            "A2",
+            "A3"
+          ],
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "A2",
+          "description": "Northeast US",
+          "neighbors": [
+            "A1",
+            "A4"
+          ],
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "A3",
+          "description": "Southwest US",
+          "neighbors": [
+            "A1",
+            "A4"
+          ],
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "A4",
+          "description": "Southeast US",
+          "neighbors": [
+            "A2",
+            "A3",
+            "B3",
+            "C2"
+          ],
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "continent id": "B",
+      "description": "South America",
+      "bonus": 2,
+      "regions": [
+        {
+          "id": "B1",
+          "description": "Brazil",
+          "neighbors": [
+            "B2",
+            "B3"
+          ],
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "B2",
+          "description": "Peru",
+          "neighbors": [
+            "B1",
+            "B4"
+          ],
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "B3",
+          "description": "Chile",
+          "neighbors": [
+            "B1",
+            "B4",
+            "A4",
+            "D1"
+          ],
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "B4",
+          "description": "Argentina",
+          "neighbors": [
+            "B2",
+            "B3"
+          ],
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "continent id": "C",
+      "description": "Europe",
+      "bonus": 2,
+      "regions": [
+        {
+          "id": "C1",
+          "description": "France",
+          "neighbors": [
+            "C2",
+            "C3"
+          ],
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "C2",
+          "description": "Russia",
+          "neighbors": [
+            "C1",
+            "C4",
+            "A4",
+            "D1"
+          ],
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "C3",
+          "description": "Germany",
+          "neighbors": [
+            "C1",
+            "C4"
+          ],
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "C4",
+          "description": "Spain",
+          "neighbors": [
+            "C2",
+            "C3"
+          ],
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "continent id": "D",
+      "description": "Africa",
+      "bonus": 2,
+      "regions": [
+        {
+          "id": "D1",
+          "description": "North Africa",
+          "neighbors": [
+            "D2",
+            "D3",
+            "B3",
+            "C2"
+          ],
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "D2",
+          "description": "Egypt",
+          "neighbors": [
+            "D1",
+            "D4"
+          ],
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "D3",
+          "description": "Madagascar",
+          "neighbors": [
+            "D1",
+            "D4"
+          ],
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "D4",
+          "description": "Congo",
+          "neighbors": [
+            "D2",
+            "D3"
+          ],
+          "x": 0,
+          "y": 0
+        }
+      ]
+    }
+  ],
+  "min players": 2,
+  "max players": 2,
+  "troops per player": [
+    40
+  ]
+}

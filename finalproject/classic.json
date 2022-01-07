@@ -1,0 +1,557 @@
+{
+  "continents": [
+    {
+      "continent id": "North America",
+      "description": "",
+      "bonus": 5,
+      "regions": [
+        {
+          "id": "Alaska",
+          "description": "",
+          "neighbors": [
+            "NW Territory",
+            "Alberta",
+            "Kamchatka"
+          ],
+          "x": 25,
+          "y": 605
+        },
+        {
+          "id": "NW Territory",
+          "description": "",
+          "neighbors": [
+            "Alaska",
+            "Greenland",
+            "Alberta",
+            "Ontario"
+          ],
+          "x": 105,
+          "y": 605
+        },
+        {
+          "id": "Greenland",
+          "description": "",
+          "neighbors": [
+            "NW Territory",
+            "Ontario",
+            "Quebec",
+            "Iceland"
+          ],
+          "x": 345,
+          "y": 625
+        },
+        {
+          "id": "Alberta",
+          "description": "",
+          "neighbors": [
+            "Alaska",
+            "NW Territory",
+            "Ontario",
+            "Western US"
+          ],
+          "x": 70,
+          "y": 550
+        },
+        {
+          "id": "Ontario",
+          "description": "",
+          "neighbors": [
+            "NW Territory",
+            "Greenland",
+            "Alberta",
+            "Quebec",
+            "Western US",
+            "Eastern US"
+          ],
+          "x": 140,
+          "y": 545
+        },
+        {
+          "id": "Quebec",
+          "description": "",
+          "neighbors": [
+            "Greenland",
+            "Ontario",
+            "Eastern US"
+          ],
+          "x": 220,
+          "y": 545
+        },
+        {
+          "id": "Western US",
+          "description": "",
+          "neighbors": [
+            "Alberta",
+            "Ontario",
+            "Eastern US",
+            "Central America"
+          ],
+          "x": 60,
+          "y": 470
+        },
+        {
+          "id": "Eastern US",
+          "description": "",
+          "neighbors": [
+            "Ontario",
+            "Quebec",
+            "Western US",
+            "Central America"
+          ],
+          "x": 140,
+          "y": 485
+        },
+        {
+          "id": "Central America",
+          "description": "",
+          "neighbors": [
+            "Western US",
+            "Eastern US",
+            "Venezuela"
+          ],
+          "x": 68,
+          "y": 400
+        }
+      ]
+    },
+    {
+      "continent id": "Europe",
+      "description": "",
+      "bonus": 5,
+      "regions": [
+        {
+          "id": "Iceland",
+          "description": "",
+          "neighbors": [
+            "Greenland",
+            "Scandinavia",
+            "Britain"
+          ],
+          "x": 390,
+          "y": 603
+        },
+        {
+          "id": "Scandinavia",
+          "description": "",
+          "neighbors": [
+            "Iceland",
+            "Ukraine",
+            "Britain",
+            "N. Europe"
+          ],
+          "x": 480,
+          "y": 597
+        },
+        {
+          "id": "Ukraine",
+          "description": "",
+          "neighbors": [
+            "Scandinavia",
+            "N. Europe",
+            "S. Europe",
+            "Ural",
+            "Kazakhstan",
+            "Middle East"
+          ],
+          "x": 555,
+          "y": 560
+        },
+        {
+          "id": "Britain",
+          "description": "",
+          "neighbors": [
+            "Iceland",
+            "Scandinavia",
+            "N. Europe",
+            "W. Europe"
+          ],
+          "x": 431,
+          "y": 554
+        },
+        {
+          "id": "N. Europe",
+          "description": "",
+          "neighbors": [
+            "Scandinavia",
+            "Ukraine",
+            "Britain",
+            "W. Europe",
+            "S. Europe"
+          ],
+          "x": 476,
+          "y": 544
+        },
+        {
+          "id": "W. Europe",
+          "description": "",
+          "neighbors": [
+            "Britain",
+            "N. Europe",
+            "S. Europe",
+            "North Africa"
+          ],
+          "x": 442,
+          "y": 524
+        },
+        {
+          "id": "S. Europe",
+          "description": "",
+          "neighbors": [
+            "Ukraine",
+            "N. Europe",
+            "W. Europe",
+            "Middle East",
+            "North Africa",
+            "Egypt"
+          ],
+          "x": 512,
+          "y": 507
+        }
+      ]
+    },
+    {
+      "continent id": "Asia",
+      "description": "",
+      "bonus": 7,
+      "regions": [
+        {
+          "id": "Ural",
+          "description": "",
+          "neighbors": [
+            "Ukraine",
+            "Siberia",
+            "Kazakhstan",
+            "China"
+          ],
+          "x": 675,
+          "y": 590
+        },
+        {
+          "id": "Siberia",
+          "description": "",
+          "neighbors": [
+            "Ural",
+            "Yakutsk",
+            "Irkutsk",
+            "China",
+            "Mongolia"
+          ],
+          "x": 730,
+          "y": 597
+        },
+        {
+          "id": "Yakutsk",
+          "description": "",
+          "neighbors": [
+            "Siberia",
+            "Kamchatka",
+            "Irkutsk"
+          ],
+          "x": 820,
+          "y": 620
+        },
+        {
+          "id": "Kamchatka",
+          "description": "",
+          "neighbors": [
+            "Alaska",
+            "Yakutsk",
+            "Irkutsk",
+            "Mongolia",
+            "Japan"
+          ],
+          "x": 890,
+          "y": 597
+        },
+        {
+          "id": "Irkutsk",
+          "description": "",
+          "neighbors": [
+            "Siberia",
+            "Yakutsk",
+            "Kamchatka",
+            "Mongolia"
+          ],
+          "x": 820,
+          "y": 555
+        },
+        {
+          "id": "Kazakhstan",
+          "description": "",
+          "neighbors": [
+            "Ukraine",
+            "Ural",
+            "China",
+            "Middle East",
+            "India"
+          ],
+          "x": 660,
+          "y": 507
+        },
+        {
+          "id": "China",
+          "description": "",
+          "neighbors": [
+            "Ural",
+            "Siberia",
+            "Kazakhstan",
+            "Mongolia",
+            "India",
+            "Siam"
+          ],
+          "x": 750,
+          "y": 480
+        },
+        {
+          "id": "Mongolia",
+          "description": "",
+          "neighbors": [
+            "Siberia",
+            "Irkutsk",
+            "Kamchatka",
+            "China",
+            "Japan"
+          ],
+          "x": 860,
+          "y": 520
+        },
+        {
+          "id": "Japan",
+          "description": "",
+          "neighbors": [
+            "Kamchatka",
+            "Mongolia"
+          ],
+          "x": 928,
+          "y": 475
+        },
+        {
+          "id": "Middle East",
+          "description": "",
+          "neighbors": [
+            "Ukraine",
+            "S. Europe",
+            "Kazakhstan",
+            "India",
+            "Egypt",
+            "East Africa"
+          ],
+          "x": 600,
+          "y": 435
+        },
+        {
+          "id": "India",
+          "description": "",
+          "neighbors": [
+            "Kazakhstan",
+            "China",
+            "Middle East",
+            "Siam"
+          ],
+          "x": 730,
+          "y": 410
+        },
+        {
+          "id": "Siam",
+          "description": "",
+          "neighbors": [
+            "China",
+            "India",
+            "Indonesia"
+          ],
+          "x": 820,
+          "y": 385
+        }
+      ]
+    },
+    {
+      "continent id": "South America",
+      "description": "",
+      "bonus": 2,
+      "regions": [
+        {
+          "id": "Venezuela",
+          "description": "",
+          "neighbors": [
+            "Central America",
+            "Peru",
+            "Brazil"
+          ],
+          "x": 170,
+          "y": 310
+        },
+        {
+          "id": "Peru",
+          "description": "",
+          "neighbors": [
+            "Venezuela",
+            "Brazil",
+            "Argentina"
+          ],
+          "x": 200,
+          "y": 225
+        },
+        {
+          "id": "Brazil",
+          "description": "",
+          "neighbors": [
+            "Venezuela",
+            "Peru",
+            "Argentina",
+            "North Africa"
+          ],
+          "x": 280,
+          "y": 225
+        },
+        {
+          "id": "Argentina",
+          "description": "",
+          "neighbors": [
+            "Peru",
+            "Brazil"
+          ],
+          "x": 215,
+          "y": 130
+        }
+      ]
+    },
+    {
+      "continent id": "Africa",
+      "description": "",
+      "bonus": 3,
+      "regions": [
+        {
+          "id": "North Africa",
+          "description": "",
+          "neighbors": [
+            "W. Europe",
+            "S. Europe",
+            "Brazil",
+            "Egypt",
+            "East Africa",
+            "Congo"
+          ],
+          "x": 440,
+          "y": 410
+        },
+        {
+          "id": "Egypt",
+          "description": "",
+          "neighbors": [
+            "S. Europe",
+            "Middle East",
+            "North Africa",
+            "East Africa"
+          ],
+          "x": 540,
+          "y": 435
+        },
+        {
+          "id": "East Africa",
+          "description": "",
+          "neighbors": [
+            "Middle East",
+            "North Africa",
+            "Egypt",
+            "Congo",
+            "Madagascar",
+            "South Africa"
+          ],
+          "x": 600,
+          "y": 330
+        },
+        {
+          "id": "Congo",
+          "description": "",
+          "neighbors": [
+            "North Africa",
+            "East Africa",
+            "South Africa"
+          ],
+          "x": 530,
+          "y": 300
+        },
+        {
+          "id": "South Africa",
+          "description": "",
+          "neighbors": [
+            "Congo",
+            "East Africa",
+            "Madagascar"
+          ],
+          "x": 540,
+          "y": 190
+        },
+        {
+          "id": "Madagascar",
+          "description": "",
+          "neighbors": [
+            "East Africa",
+            "South Africa"
+          ],
+          "x": 624,
+          "y": 220
+        }
+      ]
+    },
+    {
+      "continent id": "Australia",
+      "description": "",
+      "bonus": 2,
+      "regions": [
+        {
+          "id": "Indonesia",
+          "description": "",
+          "neighbors": [
+            "Siam",
+            "Papua New Guinea",
+            "Western Australia"
+          ],
+          "x": 865,
+          "y": 305
+        },
+        {
+          "id": "Papua New Guinea",
+          "description": "",
+          "neighbors": [
+            "Indonesia",
+            "Western Australia",
+            "Eastern Australia"
+          ],
+          "x": 967,
+          "y": 280
+        },
+        {
+          "id": "Western Australia",
+          "description": "",
+          "neighbors": [
+            "Indonesia",
+            "Papua New Guinea",
+            "Eastern Australia"
+          ],
+          "x": 905,
+          "y": 205
+        },
+        {
+          "id": "Eastern Australia",
+          "description": "",
+          "neighbors": [
+            "Papua New Guinea",
+            "Western Australia"
+          ],
+          "x": 960,
+          "y": 200
+        }
+      ]
+    }
+  ],
+  "min players": 2,
+  "max players": 6,
+  "troops per player": [
+    40,
+    35,
+    30,
+    25,
+    20
+  ]
+}

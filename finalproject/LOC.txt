@@ -1,0 +1,3 @@
+When looking at the total line count, you should not include the code we cited
+from Stack Overflow. You can find these cited lines in state.ml in the method
+"shuffle" (lines 122-127).

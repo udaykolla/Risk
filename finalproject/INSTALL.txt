@@ -1,0 +1,18 @@
+Instructions to Install and Build Game (MS3)
+
+1. Unzip finalproject.zip and switch to that directory in terminal.
+
+2. Type in command "make install" to install any missing packages in terminal.
+If this results in errors, please follow the instructions to install any
+additional missing packages that are listed.
+
+3. Run "make build" on the command line in terminal.
+
+4. Run "make play" on the command line in terminal.
+
+5. To play using the GUI, you will need to install and run an X server. 
+XQuartz for Mac, and Xming for Windows are recommended. If using Xming, run 
+"export DISPLAY=:0" before running "make play".
+
+6. If on Windows, you may run into an issue answered at
+https://stackoverflow.com/questions/24805385/camlimages-fatal-error-exception-failureunsupported
